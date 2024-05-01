@@ -1,0 +1,23 @@
+# Ignore virtual environment directories
+venv/
+env/
+*.pyc
+
+# Ignore database files
+*.sqlite3
+
+# Ignore local settings files
+*/settings/local.py
+
+# Ignore media and static files (if not served from a CDN)
+media/
+static/
+
+# Ignore compiled translations
+locale/
+
+# Ignore logs and temporary files
+*.log
+*.swp
+.DS_Store
+
